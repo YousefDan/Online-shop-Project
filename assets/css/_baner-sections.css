@@ -1,0 +1,10 @@
+.custom-baner1-img-wrapper img{
+    transition: transform 3s ease;
+}
+.custom-baner1-img-wrapper:hover img{
+    transform: scale(1.2) rotate(5deg);
+}
+.custom-overflow-hidden{
+    overflow: hidden !important;
+    display: inline-block !important;
+}

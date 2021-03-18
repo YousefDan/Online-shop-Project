@@ -1,0 +1,17 @@
+.custom-shipping img{
+    width: 37px;
+    height: 28px;
+}
+.custom-shipping p:first-of-type{
+    font-size: 12px !important;
+}
+.custom-shipping p:last-of-type{
+    font-size: 10px;
+    color: #7c7878ef;
+}
+/*ads Section*/
+.wrapper-img-ads img{
+    height: fit-content !important;
+    width: 100% !important;
+    cursor: pointer;
+}

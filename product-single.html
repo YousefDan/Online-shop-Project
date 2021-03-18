@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه - صفحه محصول</title>
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/zoomy.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body dir="rtl" class="bg-light">
+    <!--Start Nav Bar-->
+    <div class="container-fluid custom-bg-nav-bar-top">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-4 d-flex align-items-center">
+                        <p class="text-muted custom-font-size-14px mb-0 pl-2">ارسال رایگان-ضمانت بازگشت وجه تا 30 روز</p>
+                    </div>
+                    <div class="col-sm-12 col-md-7 col-lg-8">
+                        <nav class="nav custom-nav">
+                            <a class="nav-link text-white custom-font-size-14px p-2 border-left" href="#">آدرس فروشگاه</a>
+                            <a class="nav-link text-white custom-font-size-14px p-2 border-left" href="#">پیگیری سفارش</a>
+                            <a class="nav-link text-white custom-font-size-14px p-2 border-left" href="#">تلفن: 091222222222</a>
+                            <a class="nav-link text-white custom-font-size-14px p-2 border-left d-none d-lg-block" href="#">ضمانت کیفیت محصولات</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-9">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend position-relative">
+                              <button class="btn btn-secondary dropdown-toggle custom-font-size-14px" type="button" data-toggle="dropdown">همه دسته بندی ها</button>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">موبایل</a>
+                                <a class="dropdown-item" href="#">قطعات کامپیوتر</a>
+                                <a class="dropdown-item" href="#">پوشاک</a>
+                                <a class="dropdown-item" href="#">لوازم خانگی</a>
+                              </div>
+                            </div>
+                            <input type="text" class="form-control custom-search-input" aria-label="Text input with dropdown button" placeholder="جستجوی کالای مورد نظر....">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-success" type="button" id="button-addon1">بگرد</button>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-sm-12 col-md-3 text-center  ">
+                    <div class="dropdown">
+                        <button class="btn text-white dropdown-toggle custom-dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                           <span class="pr-2">سبد خرید</span><i class="fas fa-cart-plus"></i>
+                        </button>
+                        <div class="dropdown-menu basket" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item d-flex justify-content-around" href="#">
+                              <img src="assets/img/chair.jpg" class="img-thumbnail" alt="">
+                              <ul>
+                                  <li>صندلی راحتی</li>
+                                  <li>مدل: لاکچری</li>
+                                  <li>قیمت: 500000</li>
+                              </ul>
+                              <span aria-hidden="true">&times;</span>
+                          </a>
+                          <a class="dropdown-item d-flex justify-content-around" href="#">
+                            <img src="assets/img/iphone.jpg" class="img-thumbnail" alt="">
+                            <ul>
+                                <li>موبایل</li>
+                                <li>مدل: iPhone12</li>
+                                <li>قیمت: 150000000</li>
+                            </ul>
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                         
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark w-100">
+                        <a class="navbar-brand mr-2" href="#">فروشگاه</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">خانه</a>
+                            </li>
+                           
+                            <li class="nav-item dropdown custom-dropdown">
+                              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                لوازم خانگی
+                              </a>
+                              <div class="dropdown-menu w-100 custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <img src="assets/img/home.png" class="costum-img-home d-none d-lg-block" alt="">
+                                 <div class="container">
+                                     <div class="row w-100">
+                                         <div class="col-sm-6 col-md-4">
+                                            <ul class="nav flex-column custom-nav-a">
+                                               <li class="nav-item">
+                                                 <a class="nav-link active" href="#"><i class="fas fa-angle-left"></i> ماشین لباسشویی</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                 <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> یخچال و فریزر</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                 <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> اجاق گاز</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                 <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> لوازم صوتی و تصویری</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                   <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> ماشین ظرفشویی</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                   <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> اسپرسو ساز</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                   <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> میز کامپیوتر</a>
+                                               </li>
+                                               <li class="nav-item">
+                                                   <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> میز ناهار خوری</a>
+                                               </li>
+                                             </ul>
+                                         </div>
+                                         <div class="col-sm-6 col-md-4">
+                                            <ul class="nav flex-column custom-nav-a">
+                                                <li class="nav-item">
+                                                  <a class="nav-link active" href="#"><i class="fas fa-angle-left"></i> ماشین اصلاح سر و صورت</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> فرش و قالیچه</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> بخاری گازی</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> چینی و شکستنی</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> لوازم اتاق خواب</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> آبمیوه گیری</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> سماور گازی</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> کمد</a>
+                                                </li>
+                                              </ul>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                              </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                   سوپر مارکت
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                   لوازم دیجیتال
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                   لوازم خودرو
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white" href="#">درباره ما</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning position-absolute custom-input-logine" href="#" data-target="#login-form" data-toggle="modal">
+                                  <i class="far fa-user"></i>
+                                  <span>ورود به حساب کاربری</span>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="login-form" tabindex="-1">
+                                  <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                      <div class="modal-header border-info">
+                                        <h5 class="modal-title w-100 text-center text-muted">ورود به حساب کاربری</h5>
+                                      </div>
+                                      <div class="modal-body">
+                                        <form>
+                                          <div class="form-group custom-form-group custom-font-size text-muted">
+                                            <label for="exampleInputEmail1">ایمیل</label>
+                                            <input type="email" class="form-control" placeholder="ایمیل...">
+                                          </div>
+                                          <div class="form-group custom-form-group custom-font-size text-muted">
+                                            <label for="exampleInputPassword1">کلمه عبور</label>
+                                            <input type="password" class="form-control" placeholder="کلمه عبور...">
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input ml-0" id="exampleCheck1">
+                                            <label class="custom-control-label custom-font-size text-muted" for="exampleCheck1">مرا به خاطر بسپار</label>
+                                          </div>
+                                          <button type="submit" class="btn btn-success btn-block mt-3">ورود</button>
+                                        </form>
+                                      </div>
+                                      <div class="modal-footer custom-modal-footer d-flex justify-content-around border-0">
+                                        <a href="">رمز خود را فراموش کرده اید؟</a>
+                                        <a href="">عضویت در سایت</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </li>
+
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Nav Bar-->
+    <!--Start breadcrumb Section-->
+     <div class="my-5 ">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white">
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none">خانه</a></li>
+              <li class="breadcrumb-item custome-breadcrumb-item-product-page active" aria-current="page">گوشی موبایل</li>
+            </ol>
+        </nav>
+     </div>
+    <!--End breadcrumb Section-->
+    <!--Start Product-details Section-->
+    <div class="container">
+        <div class="row bg-white">
+            <div class="col-sm-12 col-md-5 mb-5" id="el">
+                
+            </div>
+            <div class="col-sm-12 col-md-7 border-right margin-top-max-735-150px">
+                <div class="header-product mt-5 d-flex justify-content-between">
+                    <h1>هدست شیائومی مدل b-53</h1>
+                    <div>
+                        <a href="#"><i class="far fa-heart text-danger"></i></a>
+                        <a href="#"><i class="fas fa-share-alt"></i></a>
+                        <a href="#"><i class="far fa-bell text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="mt-3 ">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                    <span class="text-muted ml-2">(5 دیدگاه برای این کالا)</span>
+                </div>
+                <div class="mt-3">
+                    <s class="mr-3 text-danger">250000 تومان</s>
+                    <span class="bg-success p-1 rounded text-white">120000 تومان</span>
+                </div>
+                <div class="mt-2">
+                    <div class="d-flex justify-content-between mt-3">
+                        <span>برند : شیائومی</span>
+                        <span class=""> دسته بندی : <span class="badge badge-pill badge-primary">هدست و هندز فری</span><span class="badge badge-pill badge-primary ml-2">موسیقی</span></span>
+                    </div>
+
+                </div>
+                <div class="mt-4 product-benefits">
+                    <h6>ویژه گی های محصول</h6>
+                    <ul class="nav flex-column text-muted">
+                        <li class="nav-item ml-3 p-2">
+                           <i class="fas fa-angle-double-left"></i><span class="ml-2">کیفیت صدای بالا</span>
+                        </li>
+                        <li class="nav-item ml-3 p-2">
+                            <i class="fas fa-angle-double-left"></i><span class="ml-2">مقاوم در برابر ضربه</span>
+                        </li>
+                        <li class="nav-item ml-3 p-2">
+                            <i class="fas fa-angle-double-left"></i><span class="ml-2">ارزش خرید بالا</span>
+                        </li>
+                        <li class="nav-item ml-3 p-2">
+                            <i class="fas fa-angle-double-left"></i><span class="ml-2"> اتصال بی سیم</span>
+                        </li>
+                      </ul>
+                </div>
+                <div class="my-4">
+                    <label for="product-number">تعداد</label>
+                    <input type="text" id="product-number" class="text-muted mx-2 rounded" value="1">
+                    <input type="button" value="افزودن به سبد خرید" class="btn btn-success">
+                </div>
+            </div>
+        </div>
+        <div class="row bg-white mt-5">
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs custom-nav-tabs-product-page" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">نقد و بررسی</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link " id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">مشخصات فنی</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link " id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">نقد و بررسی</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-sm-12 custom-overall-investigate">
+                            <h5 class="text-muted my-3">نقد و بررسی کلی</h5>
+                            <p class="p-3">
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row my-5">
+                          <div class="col-sm-12 col-md-5">
+                            <div class="wrapper-progress-bar-product p-4">
+                              <div class="mb-4">
+                                <p>ارزش خرید نسبت به قیمت</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>کیفیت عمومی پخش صدا</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>امکانات و قابلیت ها</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>ارگونومی</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>کیفیت ساخت</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-7">
+                            <div>
+                              <h5 class="text-muted">ویژه گی های محصول</h5>
+                              <ul class="mt-4">
+                                <li class="mb-3 custom-font-size-14px text-muted"><i class="far fa-dot-circle text-info"></i> کیفیت صدای خوب و بدون نویز</li>
+                                <li class="mb-3 custom-font-size-14px text-muted"><i class="far fa-dot-circle text-info"></i> قیمت مناسب</li>
+                                <li class="mb-3 custom-font-size-14px text-muted"><i class="far fa-dot-circle text-info"></i> اتصال بی سیم</li>
+                                <li class="mb-3 custom-font-size-14px text-muted"><i class="far fa-dot-circle text-info"></i> مقاوم در برابر ضربه</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h5 class="text-muted">نقد و بررسی تخصصی</h5>
+                            <p class="mt-4 pb-2 custom-line-height30px custom-text-align-justify custom-font-size-14px">
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row mt-5">
+                          <div class="col-sm-12">
+                            <div class="custom-product-more-information position-relative mb-5">
+                              <i class="far fa-dot-circle position-absolute"></i>
+                              <p class="custom-font-size-14px custom-text-align-justify custom-line-height30px px-3 text-muted">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                              </p>
+                              <div class="d-flex justify-content-center">
+                                <img src="assets/img/s1.jpg" class="img-fluid" alt="">
+                              </div>
+                            </div>
+                            <div class="custom-product-more-information position-relative mb-5">
+                              <i class="far fa-dot-circle position-absolute"></i>
+                              <p class="custom-font-size-14px custom-text-align-justify custom-line-height30px px-3 text-muted">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                              </p>
+                              <div class="d-flex justify-content-center">
+                                <img src="assets/img/s2.jpg" class="img-fluid" alt="">
+                              </div>
+                            </div>
+                            <div class="custom-product-more-information position-relative mb-5">
+                              <i class="far fa-dot-circle position-absolute"></i>
+                              <p class="custom-font-size-14px custom-text-align-justify custom-line-height30px px-3 text-muted">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                              </p>
+                              <div class="d-flex justify-content-center">
+                                <img src="assets/img/s3.jpg" class="img-fluid" alt="">
+                              </div>
+                            </div>
+                            <div class="custom-product-more-information position-relative mb-5">
+                              <i class="far fa-dot-circle position-absolute"></i>
+                              <p class="custom-font-size-14px custom-text-align-justify custom-line-height30px px-3 text-muted">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                              </p>
+                              <div class="d-flex justify-content-center">
+                                <img src="assets/img/s4.jpg" class="img-fluid" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                              <h5 class="text-muted mt-3">مشخصات</h5>
+                              <div class="more-details-about-product">
+                                <p class="mt-4 mb-2"><i class="fas fa-caret-left mr-2"></i>مشخصات کلی</p>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">ابعاد</p><p class="value">150 * 150 * 60 میلی متر</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">وزن</p><p class="value">700 گرم</p>
+                                </div>
+                              </div>
+                              <div class="more-details-about-product">
+                                <p class="mt-4 mb-2"><i class="fas fa-caret-left mr-2"></i>مشخصات فنی</p>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">نوع اتصال</p><p class="value">بی سیم و با سیم </p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">نوع گوشی</p><p class="value">دو گوشی</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">مناسب برای</p><p class="value">مکالمه, ورزش, گیمینگ, کاربر عمومی</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">رابط</p><p class="value">جک 3.5 میلی متر , بلوتوث</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">NFC</p><p class="value">ندارد</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">محدوده عملکرد</p><p class="value">تا 10 متر</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">نوع آهن ربا</p><p class="value">نئودیمیومی</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">جنس بدنه</p><p class="value">پلاستیک</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">حساسیت</p><p class="value">108 دسی بل</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                  <p class="key mr-3">نوع باتری</p><p class="value">باتری لیتیوم یونی</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                      <div class="container">
+                        <div class="row mt-5">
+                          <div class="col-sm-12 col-md-5">
+                            <div class="wrapper-progress-bar-product p-4">
+                              <div class="mb-4">
+                                <p>ارزش خرید نسبت به قیمت</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>کیفیت عمومی پخش صدا</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>امکانات و قابلیت ها</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>ارگونومی</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                              <div class="mb-4">
+                                <p>کیفیت ساخت</p>
+                                <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-7">
+                            <div>
+                              <p class="font-size14px">شما هم می توانید در مورد این محصول نظر دهید</p>
+                              <p class="mt-3 custom-line-height30px text-muted ">برای نظر دادن در مورد محصولات. ابتدا باید وارد حساب کاربرب خود شوید. اگر این محصول را قبلا از این سایت خریده باشید نظر شما به عنوان مالک محصول ثبت خواهد شد.</p>
+                              <button type="button" class="btn btn-success mt-5"><i class="fas fa-sign-in-alt mr-2"></i>ورود-ثبت نام</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-5 border-top">
+                          <div class="col-sm-12 col-md-5 mb-3">
+                            <div class="mt-2">
+                              <img src="assets/img/vahid-salehi.jpg" alt="" class="rounded-circle" width="64px" height="64px">
+                              <p class="mt-2 font-size14px">وحید صالحی <span class="text-muted">(خریدار)</span></p>
+                              <p class="my-3 bg-primary text-white p-1 rounded d-inline-block"><i class="far fa-thumbs-up mr-2"></i>خرید این محصول را پیشنهاد می کنم</p>
+                              <p class="font-size14px mb-3">رنگ :‌ مشکی</p>
+                              <p class="font-size14px">فروشنده : فروشگاه عرفان</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-7 mb-3">
+                            <div class="mt-2">
+                              <p class="bg-light p-1 rounded">محصول بسیار با کیفیتی می باشد از یک برند معتبر</p>
+                              <p class="font-size14px mt-3 text-primary">نقاط قوت</p>
+                              <ul class="mt-2 pl-4 font-size14px text-muted">
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>قیمت مناسب</li>
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>کیفیت مطلوب</li>
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>صدای واضح و شفاف</li>
+                              </ul>
+                              <p class="font-size14px mt-3 text-danger">نقاط ضعف</p>
+                              <ul class="mt-2 pl-4 font-size14px text-muted">
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i>عدم وجود خدمات پس از فروش</li>
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i>عدم تنوع رنگ</li>
+                              </ul>
+                              <div class="text-right mb-4"><p class="font-size14px">آیا این نظر برای شما مفید بود؟ <span class="bg-light p-1 rounded ml-3 font-size-10px">بله 10</span><span class="bg-light p-1 rounded ml-3 font-size-10px">خیر 0</span></p></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-5 border-top">
+                          <div class="col-sm-12 col-md-5 mb-3">
+                            <div class="mt-2">
+                              <img src="assets/img/person1.jpg" alt="" class="rounded-circle" width="64px" height="64px">
+                              <p class="mt-2 font-size14px">سارا <span class="text-muted">(خریدار)</span></p>
+                              <p class="my-3 bg-primary text-white p-1 rounded d-inline-block"><i class="far fa-thumbs-up mr-2"></i>خرید این محصول را پیشنهاد می کنم</p>
+                              <p class="font-size14px mb-3">رنگ :‌ مشکی</p>
+                              <p class="font-size14px">فروشنده : فروشگاه عرفان</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-7 mb-3">
+                            <div class="mt-2">
+                              <p class="bg-light p-1 rounded">صدای واضح و خوبی دارد</p>
+                              <p class="font-size14px mt-3 text-primary">نقاط قوت</p>
+                              <ul class="mt-2 pl-4 font-size14px text-muted">
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>قیمت مناسب</li>
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>کیفیت مطلوب</li>
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>صدای واضح و شفاف</li>
+                              </ul>
+                              <p class="font-size14px mt-3 text-danger">نقاط ضعف</p>
+                              <ul class="mt-2 pl-4 font-size14px text-muted">
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i>عدم وجود خدمات پس از فروش</li>
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i>عدم تنوع رنگ</li>
+                              </ul>
+                              <div class="text-right mb-4"><p class="font-size14px">آیا این نظر برای شما مفید بود؟ <span class="bg-light p-1 rounded ml-3 font-size-10px">بله 10</span><span class="bg-light p-1 rounded ml-3 font-size-10px">خیر 0</span></p></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-5 border-top">
+                          <div class="col-sm-12 col-md-5 mb-3">
+                            <div class="mt-2">
+                              <img src="assets/img/person3.png" alt="" class="rounded-circle" width="64px" height="64px">
+                              <p class="mt-2 font-size14px">رضا<span class="text-muted">(خریدار)</span></p>
+                              <p class="my-3 bg-danger text-white p-1 rounded d-inline-block"><i class="far fa-thumbs-down mr-2"></i>خرید این محصول را پیشنهاد نمی کنم</p>
+                              <p class="font-size14px mb-3">رنگ :‌ سفید</p>
+                              <p class="font-size14px">فروشنده : فروشگاه عرفان</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-7 mb-3">
+                            <div class="mt-2">
+                              <p class="bg-light p-1 rounded">محصول  با کیفیتی نمی باشد    </p>
+                              <p class="font-size14px mt-3 text-primary">نقاط قوت</p>
+                              <ul class="mt-2 pl-4 font-size14px text-muted">
+                                <li><i class="fas fa-circle text-primary font-size-10px mr-1 mb-3"></i>ندارد</li>
+                              </ul>
+                              <p class="font-size14px mt-3 text-danger">نقاط ضعف</p>
+                              <ul class="mt-2 pl-4 font-size14px text-muted">
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i>عدم وجود خدمات پس از فروش</li>
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i>عدم تنوع رنگ</li>
+                                <li><i class="fas fa-circle text-danger font-size-10px mr-1 mb-3"></i> کیفیت نا مطلوب</li>
+                              </ul>
+                              <div class="text-right mb-4"><p class="font-size14px">آیا این نظر برای شما مفید بود؟ <span class="bg-light p-1 rounded ml-3 font-size-10px">بله 10</span><span class="bg-light p-1 rounded ml-3 font-size-10px">خیر 0</span></p></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container my-5">
+                        <div class="row">
+                          <form class="w-100">
+                            <p class="bg-success text-white p-2 rounded mb-4"><i class="far fa-comments mr-2"></i>دیدگاه خود را ارسال نمایید</p>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="نام و نام خانوادگی...">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <input type="email" class="form-control" placeholder="ایمیل...">
+                              </div>
+                              <div class="form-group col-md-12">
+                               <textarea cols="30" rows="5" class="form-control" placeholder="دیدگاه شما..."></textarea>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary float-left">ارسال دیدگاه</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+    <!--End Product-details Section-->
+    <!--Start Products Section-->
+    <section class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="my-2 border-bottom border-danger d-inline-block">پر فروش ترین محصولات</p>
+           <div class="owl-carousel owl-theme bg-white position-relative">
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o1.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">گوشی موبایل سامسونگ - مدل 10s</p>
+                       <p class="product-price text-center"><s>10000000 تومان</s><span>9400000 تومان</span><span class="badge badge-pill badge-success">15%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o2.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">لب تاپ ایسوس</p>
+                       <p class="product-price text-center"><s>11000000 تومان</s><span>8250000 تومان</span><span class="badge badge-pill badge-success">25%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o3.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">کاور گوشی موبایل</p>
+                       <p class="product-price text-center"><s>50000 تومان</s><span>40000 تومان</span><span class="badge badge-pill badge-success">15%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o4.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">دفتر نقاشی</p>
+                       <p class="product-price text-center"><s>20000 تومان</s><span>18000 تومان</span><span class="badge badge-pill badge-success">10%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o5.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">روکش چرم موبایل</p>
+                       <p class="product-price text-center"><s>100000 تومان</s><span>80000 تومان</span><span class="badge badge-pill badge-success">20%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o6.jpg" class="card-img-top img-fluid mt-5" alt="...">
+                   <div class="card-body">
+                     <p class="card-text pb-3">
+                       <p class="product-title text-center">کفش پیاده روی اسکیچرز</p>
+                       <p class="product-price text-center"><s>450000 تومان</s><span>500000 تومان</span><span class="badge badge-pill badge-success">5%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o7.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">کفش طبی پوما</p>
+                       <p class="product-price text-center"><s>150000 تومان</s><span>120000 تومان</span><span class="badge badge-pill badge-success">8%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+             <div class="item">
+               <a href="#" class="text-decoration-none">
+                <div class="inner-custome">
+                 <div class="card card-product">
+                   <img src="assets/img/o8.jpg" class="card-img-top img-fluid" alt="...">
+                   <div class="card-body">
+                     <p class="card-text">
+                       <p class="product-title text-center">کفش نایکی مدل جوانان</p>
+                       <p class="product-price text-center"><s>250000 تومان</s><span>210000 تومان</span><span class="badge badge-pill badge-success">15%</span></p>
+                     </p>
+                   </div>
+                 </div>
+                </div>
+               </a>
+             </div>
+         </div>
+          </div>
+        </div>
+    </section>
+    <!--End Products Section-->
+    <!--Start Footer Section-->
+    <div class="container-fluid bg-white " style="margin-top: 200px;">
+        <div class="row">
+          <section class="container">
+            <div class="row news-letters-wrapper bg-warning rounded">
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="news-letter1">
+                  <h6>عضویت در خبرنامه</h6>
+                  <p>با عضویت <span class="text-danger">30% تخفیف</span> بگیرید</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 my-3 news-letter2">
+                <p><strong class="text-success"> به 226,000+ مشترک ما</strong> بپیوندید و از تخفیف های ویژه هفتگی مخصوص مشترکین خبرنامه بهره مند شوید.</p>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-5 my-3">
+                <div class="input-group news-letter3">
+                  <input type="text" class="form-control input-news-letter" placeholder="آدرس ایمیل ... ">
+                  <div class="input-group-append">
+                    <button class="btn btn-danger px-4" type="button">اشتراک</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="container mt-5">
+            <div class="row custome-footer">
+              <div class="col-sm-4 col-lg-3 my-3">
+                <h6>اطلاعات</h6>
+                <ul class="nav flex-column custom-nav-footer">
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">نحوه ارسال</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">محصولات جدید</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">محصولات منتخب</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">حساب کاربری</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">سابقه خرید</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-lg-3 my-3">
+                <h6>خدمات مشتریان</h6>
+                <ul class="nav flex-column custom-nav-footer">
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">حساب کاربری</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">سبد خرید</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">علاقه مندی ها</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">کاهش قیمت ها</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">سابقه خرید</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">سفارشات بین المللی</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-lg-3 my-3">
+                <h6>حساب کاربری</h6>
+                <ul class="nav flex-column custom-nav-footer">
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">نقشه سایت</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">نقد و بررسی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">نحوه ارسال</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">محصولات ویژه</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">خرید اقساطی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-0" href="#">ویژه کارمندان</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-lg-3 my-3">
+                <h6>اطلاعات تماس</h6>
+                <div class="support-footer d-flex">
+                  <i class="fas fa-headset"></i>
+                  <div>
+                    <p>پشتیبانی 24 ساعته</p>
+                  <a class="text-decoration-none" href="tel:021000000">021000000</a>
+                  </div>
+                </div>
+                <nav class="nav mt-4 nav-footer-social-media">
+                  <a class="nav-link telegram" href="#"><i class="fab fa-telegram-plane"></i></a>
+                  <a class="nav-link insta" href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="nav-link twit" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="nav-link facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="nav-link rss" href="#"><i class="fas fa-rss"></i></a>
+                </nav>
+                <p class="mt-3 font-size14px text-muted">تهران - خیابان ولیعصر کوچه پامچال پلاک 12</p>
+              </div>
+            </div>
+          </section>
+        </div>
+    </div>
+    <!--End Footer Section-->
+    <!--Bootstrap JS CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous">
+    </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+    crossorigin="anonymous">
+    </script>
+    <!--My JS Files-->
+    <script src="assets/JS/main.js"></script>
+    <!--Jquery zoomy on zoom hover-->
+    <script src="assets/JS/zoomy.js"></script>
+    <script>
+      var urls = [
+        "assets/img/s1.jpg",
+        "assets/img/s2.jpg",
+        "assets/img/s3.jpg",
+        "assets/img/s4.jpg"
+      ];
+      var options = {
+          //thumbLeft:true,
+         //thumbRight:true,
+          //thumbHide:true,
+          //width:300,
+          //height:500,
+      };
+      $('#el').zoomy(urls,options);
+   </script>
+    <!--Jquery carousel for slider-->
+    <script src="assets/JS/owl.carousel.min.js"></script>
+</body>
+</html>

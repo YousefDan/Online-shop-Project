@@ -1,0 +1,96 @@
+.custom-nav-tabs .nav-link{
+    border: none;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0;
+}
+.custom-nav-tabs .nav-link:focus{
+    color: red;
+}
+.images-offer{
+   width: 240px;
+   height: 240px;
+   overflow: hidden;
+}
+.images-offer img{
+    width: 240px;
+}
+.images-offer:hover .first-img, .images-offer:hover .second-img{
+    transform: translateY(-240px);
+}
+.titles-offer{
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+}
+.titles-offer a{
+    font-size: 14px;
+    color: #9891ff;
+}
+.titles-offer div i{
+    color: goldenrod;
+    margin: 20px 0;
+}
+.titles-offer div s{
+    color: red;
+    margin-left: 15px;
+}
+.titles-offer p{
+    margin-top: 20px !important;
+}
+.custom-box-shadow{
+    box-shadow: 0 0 4px 0 #cec7c7;
+}
+.offer-expire-text{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.count-down-timer #demo span{
+    margin: 10px;
+    background-color: rgb(172, 165, 165);
+    color: rgb(44, 43, 43);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: relative;
+}
+#demo{
+    padding-bottom: 20px !important;
+    font-size: 12px;
+}
+#demo  #days::after{
+    content: "روز";
+    position: absolute;
+    top: 35px;
+}
+#demo  #hours::after{
+    content: "ساعت";
+    position: absolute;
+    top: 35px;
+}
+#demo  #minutes::after{
+    content: "دقیقه";
+    position: absolute;
+    top: 35px;
+}
+#demo  #seconds::after{
+    content: "ثانیه";
+    position: absolute;
+    top: 35px;
+}
+.special-offer-for-today{
+    color: rgb(36, 32, 32);
+    position: absolute;
+    right: 12px;
+    top: -30px;
+    border-bottom: 2.5px solid red;
+}

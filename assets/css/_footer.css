@@ -1,0 +1,77 @@
+.news-letter1 h6{
+    font-size: 18px;
+}
+.news-letter1 p{
+    font-size: 14px;
+    margin-top: 15px !important;
+}
+.news-letter2 p{
+    font-size: 14px;
+}
+.input-news-letter::-webkit-input-placeholder{
+    font-size: 14px;
+}
+.input-news-letter{
+    outline: 0;
+    border-radius: unset !important;
+}
+.input-news-letter:focus{
+    outline: unset !important;
+    box-shadow: unset !important;
+    border-color: unset !important;
+}
+.custome-footer h6{
+    border-bottom: 3px solid #8a8383;
+    display: inline-flex;
+    padding-bottom: 7px;
+}
+.custom-nav-footer li a{
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+    transition:  color .5s ease;
+}
+.custom-nav-footer li a:hover{
+    color: rgb(16, 93, 194);
+}
+.custom-nav-footer li a:focus{
+    color: blue;
+}
+.support-footer i{
+    margin: 10px 0 0 7px;
+    font-size: 40px;
+    color: rgb(46, 46, 163);
+}
+.support-footer div{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+}
+.support-footer div a{
+    color: rgba(42, 125, 219, 0.7);
+}
+.nav-footer-social-media a{
+    color: #807979;
+    font-size: 18px;
+    transition: color .5s ease;
+}
+.nav-footer-social-media .telegram:hover{
+    color: rgb(21, 148, 233);
+}
+.nav-footer-social-media .insta:hover{
+    color: rgb(233, 134, 21);
+}
+.nav-footer-social-media .twit:hover{
+    color: rgb(41, 156, 233);
+}
+.nav-footer-social-media .facebook:hover{
+    color: rgb(22, 133, 207);
+}
+.nav-footer-social-media .rss:hover{
+    color: rgb(194, 124, 44);
+}
+.font-size14px{
+    font-size: 14px !important;
+}
+.news-letters-wrapper{
+    margin-top: -60px;
+}

@@ -1,0 +1,86 @@
+/*breadcrumb */
+.custome-breadcrumb-item-product-page::before{
+    content: ">" !important;
+    float: none !important;
+}
+/*Product-details*/
+.header-product h1{
+    font-size: 20px;
+}
+.header-product div i{
+    font-size: 20px;
+    margin-left: 12px;
+}
+.product-description{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14px;
+}
+.product-benefits ul li{
+    font-size: 14px;
+}
+.product-benefits h6{
+    font-size: 16px;
+}
+input#product-number{
+    border: 1px solid #efefef !important;
+    font-size: 20px;
+}
+input#product-number:focus{
+    outline: unset !important;
+    box-shadow: 0 0 2px 1px rgb(33, 108, 179);
+}
+/**/
+.custom-nav-tabs-product-page .nav-item .nav-link{
+    border: unset;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.custom-nav-tabs-product-page .nav-item .nav-link:focus,
+.custom-nav-tabs-product-page .nav-item .active{
+    border-top: 3px solid red;
+}
+/**/
+.custom-overall-investigate p{
+    line-height: 30px;
+    background-color: #efefef;
+    text-align: justify;
+}
+.wrapper-progress-bar-product div p{
+    font-size: 12px;
+}
+.wrapper-progress-bar-product{
+    background-color: #efefef;
+}
+.custom-line-height30px{
+    line-height: 30px !important;
+}
+.custom-text-align-justify{
+    text-align: justify !important;
+}
+.custom-product-more-information{
+    border-right: 2px solid #b3b0b0;
+}
+.custom-product-more-information i{
+    top: -8px;
+    right: -9px;
+    color: #b3b0b0;
+}
+/*قسمت مشخصات*/
+.more-details-about-product div p.key{
+    flex: 0 0 25% !important;
+}
+.more-details-about-product div p.value{
+    flex: 0 0 70% !important;
+}
+.more-details-about-product div p{
+    background-color: #f7f6f6;
+    padding: 10px;
+    font-size: 14px;
+}
+.more-details-about-product p i{
+    vertical-align: -2px;
+}
+.font-size-10px{
+    font-size: 10px !important;
+}

@@ -1,0 +1,16 @@
+.custom-input-logine{
+    left: 0;
+}
+.custom-input-logine i{
+    font-size: 22px;
+}
+.custom-form-group input::-webkit-input-placeholder{
+    font-size: 12px;
+}
+.custom-modal-footer a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.custom-font-size{
+    font-size: 14px !important;
+}

@@ -1,0 +1,17 @@
+.custom-description-category p{
+    font-size: 10px !important;
+}
+.custom-description-category p:first-of-type{
+    margin-bottom: 10px !important;
+}
+.custom-description-category + img{
+    width: 100px !important;
+}
+.category-hover{
+    transition: box-shadow .5s ease;
+    cursor: pointer;
+}
+.category-hover:hover{
+    box-shadow: 0 0 4px 1px #000000;
+    z-index: 2;
+}
